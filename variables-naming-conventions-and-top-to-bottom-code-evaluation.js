@@ -25,8 +25,10 @@ Things to reflect on:
 */
 
 let firstName = "Alice";
+let lastName = "Smith";
+let userId = 12345
 let itemsBought = 5;
 let price = 20;
-let result = firstName + " bought " + itemsBought + " items for $" + price + ".";
+let result = firstName + " " + lastName + " with user ID: " + userId + ", bought " + itemsBought + " items for $" + price + ".";
 
 console.log(result);
